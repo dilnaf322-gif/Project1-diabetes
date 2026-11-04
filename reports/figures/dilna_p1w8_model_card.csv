@@ -1,0 +1,9 @@
+field,value
+purpose,Flag patients for diabetes follow-up testing
+model,"Random Forest, max_dept=3,min_samples_leaf = 1, class_weight = balanced"
+Trained on,"760 patients, 13 features after encoding"
+Test performance,find41of 55 diabetic patients;57 healthy patients called back; falags 51.6 per 100
+stability,cross validated recall 0.739 +/- 0.041
+Week for,"glucose category = normal (recall 0.0,4 diabetic patients)"
+use only,"as a screening aid for a doctor, never as a diagnosis"
+Review date,"every 3 months, or sooner if the clinic's patient mix changes"
